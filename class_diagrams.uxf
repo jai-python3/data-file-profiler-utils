@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>780</w><h>190</h></coordinates><panel_attributes>bg=green
+Manager
+
+--
+- config
+- config_file
+- logfile
+- outdir
+- verbose
+--
++ profile_file(infile: str, outfile: Optional[str]) -&gt; Optional[str]
+- _write_profile_metadata_file(nifile: str, outfile: str, md5sum: str, date_created: datetime, size: int, line_count: Optional[int]) -&gt; None
+--
+// dependencies:
+// import logging
+// import os
+// import pathlib
+// from datetime import datetime
+// from typing import Optional
+// from . import constants
+// from file_helper_utils import utils
+
+
+// constants:
+// DEFAULT_OUTDIR
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

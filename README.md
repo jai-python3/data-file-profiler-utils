@@ -28,7 +28,7 @@ Please see the [TODO](docs/TODO.md) for a list of upcoming improvements.
 
 ## Use Cases
 
-<img src="use_cases.png" width="400" height="400" alt="Use Cases diagram">
+<img src="use_cases.png" width="500" height="200" alt="Use Cases diagram">
 
 
 ## Class Diagrams

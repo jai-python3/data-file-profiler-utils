@@ -3,16 +3,14 @@ import os
 
 from datetime import datetime
 
-DEFAULT_PROJECT = "TBD"
+DEFAULT_PROJECT = "data-file-profiler-utils"
 
 DEFAULT_TIMESTAMP = str(datetime.today().strftime("%Y-%m-%d-%H%M%S"))
 
-DEFAULT_OUTDIR = os.path.join(
+DEFAULT_OUTDIR_BASE = os.path.join(
     "/tmp/",
     os.getenv("USER"),
-    DEFAULT_PROJECT,
-    os.path.basename(__file__),
-    DEFAULT_TIMESTAMP,
+    DEFAULT_PROJECT
 )
 
 DEFAULT_LOGGING_FORMAT = "%(levelname)s : %(asctime)s : %(pathname)s : %(lineno)d : %(message)s"

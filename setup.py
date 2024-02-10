@@ -10,7 +10,11 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = [
+    'Click>=7.0',
+    "Rich",
+    "file-helper-utils",
+]
 
 test_requirements = [ ]
 
@@ -41,7 +45,7 @@ setup(
     packages=find_packages(include=['data_file_profiler_utils', 'data_file_profiler_utils.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/jai-python3/data_file_profiler_utils',
+    url='https://github.com/jai-python3/data-file-profiler-utils',
     version='0.1.0',
     zip_safe=False,
 )

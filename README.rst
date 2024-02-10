@@ -5,10 +5,16 @@ Data File Profiler Utils
 A Python module for simple data file profiling.
 
 
-Features
+Usage
 --------
 
-* TODO
+
+from import data_file_profiler_utils import Manager as ProfileManager
+
+pm = ProfileManager()
+pm.profile_file("/tmp/patient002.vcf")
+
+
 
 Credits
 -------

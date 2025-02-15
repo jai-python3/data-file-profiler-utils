@@ -28,7 +28,7 @@ Integration
 
 
 Exported Console Script
-========================
+-----------------------
 
 Contents of sample data file:
 

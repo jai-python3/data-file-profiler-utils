@@ -32,7 +32,7 @@ Exported Console Script
 
 Contents of sample data file:
 
-..code-block:: shell
+.. code-block:: shell
 
     cat -n sample.tsv                      
       1  #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO
@@ -44,7 +44,7 @@ Contents of sample data file:
 
 Invocation of the exported console script:
 
-..code-block:: shell
+.. code-block:: shell
   
     profile-data-file --infile /tmp/demo-data-file-profiler-utils/sample.tsv --verbose --outdir /tmp/demo-data-file-profiler-utils/
     --logfile was not specified and therefore was set to '/tmp/demo-data-file-profiler-utils/profile_data_file.log'
@@ -55,7 +55,7 @@ Invocation of the exported console script:
 
 Contents of the profile report:
 
-..code-block:: shell
+.. code-block:: shell
 
     cat -n /tmp/demo-data-file-profiler-utils/sample.tsv.profile.txt
       1  ## method-profiled: /tmp/data-file-profiler-utils/venv/lib/python3.10/site-packages/data_file_profiler_utils/manager.py

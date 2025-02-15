@@ -1,5 +1,5 @@
 Welcome to Data File Profiler Utils's documentation!
-======================================
+====================================================
 
 .. toctree::
    :maxdepth: 2

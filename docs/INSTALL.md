@@ -5,7 +5,7 @@
 Now you can install your package in your Python virtual environment
 
 ```shell
-pip install tbd
+pip install data-file-profiler-utils
 ```
 
 ### Clone project
@@ -13,8 +13,8 @@ pip install tbd
 You can `git clone` this project.
 
 ```shell
-git clone https://github.com/jai-python3/tbd.git
-cd tbd
+git clone https://github.com/jai-python3/data-file-profiler-utils.git
+cd data-file-profiler-utils
 ```
 
 ### Local pip install
@@ -36,7 +36,7 @@ You can uninstall like this:
 
 ```bash
 source venv/bin/activate
-pip uninstall tbd
+pip uninstall data-file-profiler-utils
 make clean
 ```
 
@@ -45,7 +45,7 @@ make clean
 If you modify the code in this package in your local virtual environment:
 
 ```shell
-pip uninstall tbd
+pip uninstall data-file-profiler-utils
 make clean
 python setup.py sdist
 pip install .

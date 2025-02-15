@@ -51,7 +51,7 @@ Invocation of the exported console script:
     Wrote profile metadata file '/tmp/demo-data-file-profiler-utils/sample.tsv.profile.txt'
     The log file is '/tmp/demo-data-file-profiler-utils/profile_data_file.log'
     Execution of '/tmp/data-file-profiler-utils/venv/lib/python3.10/site-packages/data_file_profiler_utils/profile_data_file.py' completed
-```
+
 
 Contents of the profile report:
 
